@@ -51,7 +51,7 @@ function getData(data) {
                 <p>${value.count} pcs</p>
             </div>
 
-            <button>Add to cart</button>
+            <button>Add to cart <i class="fa-solid fa-cart-shopping ml-[5px] text-[12px]"></i></button>
     `
         productContainer.append(card)
     })
